@@ -1,0 +1,10 @@
+{
+  "scope": "lalotai",
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "builds": [
+    { "src": "package.json", "use": "@now/next" },
+    { "src": "/api/**/*.go", "use": "@now/go" }
+  ]
+}

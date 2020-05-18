@@ -1,0 +1,27 @@
+{
+  "name": "v",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vc dev --local-config vercel.json",
+    "lint": "golint ./... && eslint . --ext .ts,.tsx --fix",
+    "test": "go test ./..."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "9.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "@types/react": "^16.9.35",
+    "@typescript-eslint/eslint-plugin": "2.33.0",
+    "@typescript-eslint/parser": "2.33.0",
+    "eslint": "7.0.0",
+    "eslint-plugin-react": "7.20.0",
+    "typescript": "^3.9.2"
+  }
+}
